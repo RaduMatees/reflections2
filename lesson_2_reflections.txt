@@ -11,3 +11,43 @@ What value do you think it offers?
 It is a way to organize your commits even further. For instance, if you have to
 make some changes to more than one file so you can make one logical commit, this is
 where the staging area come into play.
+
+R3: How can you use the staging area to make sure you have one commit per logical change?
+
+  Exactly what I was describing before. The staging area is necessary for organizing
+one logical commit, which many times may require working on more than one files.
+
+R4: What are some situations when branches would be helpful in keeping your history organized?
+How would branches help?
+
+  As I see it, branches are a vital part of Git. When making major changes to your project,
+or experiment with something, or making a different version of your code, the branch comes
+in handy. You can easily work on your idea without altering the main code (the master branch).
+So the master branch should always contain only good code, and working should be done on
+branches, and merging with the master branch should only be done when you are 100% positive
+sure about it.
+
+R5: How do the diagrams help you visualize the branch structure?
+
+  When a project becomes more complex, you can easily lose grasp of it's structure.
+Visualizing the Git branching structure through diagrams it' a great way to understand
+it and work on it, without the fear of not going back at a certain moment, or change
+something you would like, because you might break something. So understanding Git's
+branching and wrapping your head around it by using diagrams to help yourself let's
+you truly master the power of Git.
+
+R6: What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+
+  Merging two branches together combines the work from two branches, following the principles
+that were described before. Git knows how to interpret the changes from two branches and how to
+combine them (what to add, what to remove, and when to ask you what to do). We represent the merge
+as it is, merging two lines (branches) into one.
+
+R6: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+  Like I said before, Git knows how to interpret modifications in the file, and how to treat
+them(when to add a change, when to remove it, or when there is a merge conflict and
+human attention is required). The pros are obvious, since Git automates at much at is possible,
+and pinpoints the part that it needs to be reviewed manually. And about the cons, I can't seem
+to find one.
