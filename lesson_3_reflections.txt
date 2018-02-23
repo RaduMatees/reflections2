@@ -1,0 +1,6 @@
+R1: When would you want to create a remote repository rather than keeping all your work local?
+
+  The more often, the better. Keeping your work remote also serves as a backup (like a cloud), 
+so there isn't any solid reason why you would not want to do that. If you don't want your work to
+be public, you can just use a private repository. Also, you can take advantage of GitHub's
+facilities.
